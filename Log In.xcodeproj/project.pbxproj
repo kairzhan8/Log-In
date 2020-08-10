@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		5592E96A24E1216C002EC3FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5592E96924E1216C002EC3FC /* AppDelegate.swift */; };
 		5592E96C24E1216C002EC3FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5592E96B24E1216C002EC3FC /* SceneDelegate.swift */; };
-		5592E96E24E1216C002EC3FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5592E96D24E1216C002EC3FC /* ViewController.swift */; };
+		5592E96E24E1216C002EC3FC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5592E96D24E1216C002EC3FC /* LoginViewController.swift */; };
 		5592E97124E1216C002EC3FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5592E96F24E1216C002EC3FC /* Main.storyboard */; };
 		5592E97324E12170002EC3FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5592E97224E12170002EC3FC /* Assets.xcassets */; };
 		5592E97624E12170002EC3FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5592E97424E12170002EC3FC /* LaunchScreen.storyboard */; };
+		5592E98024E13A88002EC3FC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5592E97F24E13A88002EC3FC /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5592E96624E1216C002EC3FC /* Log In.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Log In.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5592E96924E1216C002EC3FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5592E96B24E1216C002EC3FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5592E96D24E1216C002EC3FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5592E96D24E1216C002EC3FC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5592E97024E1216C002EC3FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5592E97224E12170002EC3FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5592E97524E12170002EC3FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5592E97724E12170002EC3FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5592E97F24E13A88002EC3FC /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				5592E96924E1216C002EC3FC /* AppDelegate.swift */,
 				5592E96B24E1216C002EC3FC /* SceneDelegate.swift */,
-				5592E96D24E1216C002EC3FC /* ViewController.swift */,
+				5592E96D24E1216C002EC3FC /* LoginViewController.swift */,
 				5592E96F24E1216C002EC3FC /* Main.storyboard */,
 				5592E97224E12170002EC3FC /* Assets.xcassets */,
 				5592E97424E12170002EC3FC /* LaunchScreen.storyboard */,
 				5592E97724E12170002EC3FC /* Info.plist */,
+				5592E97F24E13A88002EC3FC /* WelcomeViewController.swift */,
 			);
 			path = "Log In";
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5592E96E24E1216C002EC3FC /* ViewController.swift in Sources */,
+				5592E96E24E1216C002EC3FC /* LoginViewController.swift in Sources */,
+				5592E98024E13A88002EC3FC /* WelcomeViewController.swift in Sources */,
 				5592E96A24E1216C002EC3FC /* AppDelegate.swift in Sources */,
 				5592E96C24E1216C002EC3FC /* SceneDelegate.swift in Sources */,
 			);
