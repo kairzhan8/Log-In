@@ -28,6 +28,7 @@ class LoginViewController: UIViewController {
             newViewController.username = username.text!
             self.present(newViewController, animated: true, completion: nil)
         } else {
+            password.text = nil
             let alert = UIAlertController(title: "Error", message: "Username or password is not correct", preferredStyle: .alert)
             
             alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
@@ -60,5 +61,21 @@ class LoginViewController: UIViewController {
     }
     
 
+}
+
+extension LoginViewController: UITextFieldDelegate {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        if textField == username {
+            textField.resignFirstResponder()
+            password.becomeFirstResponder()
+        } else {
+            login()
+        }
+        return true
+    }
 }
 
